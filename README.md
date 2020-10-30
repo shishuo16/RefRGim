@@ -9,15 +9,14 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 * [Numpy (1.18.5+)](https://numpy.org/)
 ### Install
 Default method to install:
-    test
-'''
+```
 ### Download
 git clone --recursive https://github.com/shishuo16/HGImp.git
 ### Configure
 vim ~/.bashrc
 export HGImp_PATH="(Absolute_path_HGImp_located_in)/HGImp/"
 source ~/.bashrc
-'''
+```
 ## Running  
 HGImp takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf)) and a prefix as inputs and output the population identification results of input individuals and the probabilities of each population class of individuals belonged to:
 '''
