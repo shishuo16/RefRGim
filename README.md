@@ -9,6 +9,7 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 * [Numpy (1.18.5+)](https://numpy.org/)
 ### Install
 Default method to install:
+    test
 '''
 ### Download
 git clone --recursive https://github.com/shishuo16/HGImp.git
