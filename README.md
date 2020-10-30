@@ -19,12 +19,12 @@ source ~/.bashrc
 ```
 ## Running  
 HGImp takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf)) and a prefix as inputs and output the population identification results of input individuals and the probabilities of each population class of individuals belonged to:
-'''
+```
 python3 $HGImp_PATH/HGImp.py example/test.vcf example/test.out
-'''
+```
 ### Outputs 
 - test.out.populations
- - individual classification result: individual name, population class, and super population class
+    - individual classification result: individual name, population class, and super population class
 - test.out.population.probs
- - probability matrix of individuals and 26 populations
+    - probability matrix of individuals and 26 populations
   
