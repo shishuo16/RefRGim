@@ -24,7 +24,7 @@ python3 $HGImp_PATH/HGImp.py example/test.vcf example/test.out
 '''
 ### Outputs 
 * test.out.populations
-  individual classification result: individual name, population class, and super population class
+  ** individual classification result: individual name, population class, and super population class
 * test.out.population.probs
-  probability matrix of individuals and 26 populations
+  ** probability matrix of individuals and 26 populations
   
