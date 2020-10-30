@@ -18,7 +18,7 @@ export HGImp_PATH="(Absolute_path_HGImp_located_in)/HGImp/"
 source ~/.bashrc
 ```
 ## Running  
-HGImp takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf)) and a prefix as inputs and output the population identification results of input individuals and the probabilities of each population class of individuals belonged to:
+HGImp takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf)) and a prefix as inputs and output the population identification results of input individuals, the probabilities of each population class of individuals belonged to, retrained convolutional neural network, and convolutional neural network architecture:
 ```
 python3 $HGImp_PATH/HGImp.py example/test.vcf example/test.out
 ```
