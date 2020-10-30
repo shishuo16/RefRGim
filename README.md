@@ -23,8 +23,8 @@ HGImp takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-s
 python3 $HGImp_PATH/HGImp.py example/test.vcf example/test.out
 '''
 ### Outputs 
-* .populations
+* test.out.populations
   individual classification result: individual name, population class, and super population class
-* .population.probs
+* test.out.population.probs
   probability matrix of individuals and 26 populations
   
