@@ -31,5 +31,11 @@ python3 ${HGImp_PATH}/HGImp.py example/test.vcf example/test.out
 - test.out_net
     - directory that saves the retrained weights and parameters for the model.
 - test.out_training_info
-    - directory that saves the weights, biases, and loss function in each iteration, which can be display using tensorboard to see the 
-  
+    - directory that saves graph of weights, biases, and loss function in retraining process, which can be display using tensorboard:
+    ```
+    tensorboard --logdir=test.out_training_info
+    ```
+## Maintainers
+@shishuo16
+## License
+
