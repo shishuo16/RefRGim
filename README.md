@@ -1,5 +1,5 @@
 # HGImp
-an intelligent genotype imputation reference recommendation method with convolutional neural networks based on genetic similarity of individuals from input data and current references. HGImp has been pretrained with single nucleotide polymorphism data of individuals in 1000 Genomes Project, which are from 26 different populations across the world .
+an intelligent genotype imputation reference recommendation method with convolutional neural networks based on genetic similarity of individuals from input data and current references. HGImp has been pretrained with single nucleotide polymorphism data of individuals in 1000 Genomes Project, which are from 26 different populations across the world.
 ## Background
 Genotype imputation is a statistical method for estimating missing genotypes that are not directly assayed or sequenced in study from a denser haplotype reference panel.Existing methods usually performed well on imputing common frequency variants, but not ideal for rare variants, which typically play important roles in many complex human diseases and phenotype studies. Previous studies showed the population similarity between study and reference panel is one of the key features influencing the imputation performance. 
 ## Installation
@@ -29,13 +29,14 @@ python3 ${HGImp_PATH}/HGImp.py example/test.vcf example/test.out
 - test.out.population.probs
     - probability matrix of individuals and 26 populations
 - test.out_net
-    - directory that saves the retrained weights and parameters for the model.
+    - directory that saves the retrained weights and parameters for the model
 - test.out_training_info
-    - directory that saves graph of weights, biases, and loss function in retraining process, which can be display using tensorboard:
+    - directory that saves graph of weights, biases, and loss function in retraining process, which can be display using [tensorboard](https://www.tensorflow.org/tensorboard?hl=zh-cn):
     ```
     tensorboard --logdir=test.out_training_info
     ```
 ## Maintainers
-@shishuo16
-## License
+[@shishuo16](https://github.com/shishuo16)
+## Citations
+To be continued ...
 
