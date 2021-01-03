@@ -5,8 +5,8 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 ## Installation
 ### Requirements
 * [Python 3.6](https://www.python.org/downloads/)
-* [Tensorflow (1.9.0+)](https://www.tensorflow.org/?hl=zh-cn)
-* [Numpy (1.18.5+)](https://numpy.org/)
+* [Tensorflow (1.9.0)](https://www.tensorflow.org/?hl=zh-cn)
+* [Numpy (1.18.5)](https://numpy.org/)
 ### Install
 Default method to install:
 ```
