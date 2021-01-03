@@ -6,7 +6,7 @@ import re
 import os
 import bz2
 
-hgimp_path = os.environ.get('HGImp_PATH')
+hgimp_path = sys.argv[3]
 pos = {}
 with bz2.open(hgimp_path + "/1KGP_CNN_net/SNP.INFO.bz2" , 'rt') as f:
     for line in f:
