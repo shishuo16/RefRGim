@@ -91,7 +91,7 @@ for i in range(ref_G.shape[1]):
     if i in remove_i.keys():
         ref_G[:,i] = base[remove_i[i]]+base[remove_i[i]]
 
-print("Retraining HGImp ...\n")
+print("Retraining RefRGim ...\n")
 snp_num = ref_G.shape[1]
 y_data = np.loadtxt(hgimp_path + "/1KGP_CNN_net/chr" + form_interv[0] + "/all.subp.panel.matrix")
 
@@ -290,4 +290,4 @@ sample_l = np.array(sample_l).reshape(len(sample_l),1)
 output_popu = np.append(sample_l, popu[np.argmax(output_2,1)], axis=1)
 np.savetxt(sys.argv[2]+".populations", output_popu, delimiter='\t', fmt='%s')    
 np.savetxt(sys.argv[2]+".population.probs", output_2, delimiter='\t', fmt='%1.2f')    
-print("HGImp is done. Having a nice day.")
+print("RefRGim is done. Having a nice day.")
