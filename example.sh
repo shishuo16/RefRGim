@@ -1,1 +1,1 @@
-python3 HGImp.py example/test.vcf example/test.out ./
+python3 RefRGim.py example/test.vcf example/test.out ./
