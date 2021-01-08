@@ -14,7 +14,7 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 git clone --recursive https://github.com/shishuo16/RefRGim.git
 ```
 ## Running 
-RefRGim takes standard vcf file ([VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf), a prefix for output files and the RefRGim path as inputs and output the most genetic-similar haplotype group for each input individuals, the genetic-similar probability matrix of haplotype groups and input individuals, retrained convolutional neural network, and convolutional neural network retraining process.
+RefRGim takes standard vcf file [VCFv4.2 format](https://samtools.github.io/hts-specs/VCFv4.2.pdf), a prefix for output files and the RefRGim path as inputs and output the most genetic-similar haplotype group for each input individuals, the genetic-similar probability matrix of haplotype groups and input individuals, retrained convolutional neural network, and convolutional neural network retraining process.
 ### Demo
 ```
 python3 RefRGim.py example/test.vcf example/test.out ${RefRGim_path}
