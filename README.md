@@ -10,7 +10,7 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 * [Haplotype reference panel of the 1000 Genomes Project](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502)
 
 ### Install
-**Note:** we have pre-trained our model with all variants data in the 1000 Genomes project and generated 252 convolutional neural networks (CNNs) from 22 autosomes. Considering from the aspect of saving download time and saving memory, you can only choose one chr file in 1KGP_CNN_net to download. Or if you do not care about a little more downloading time and computer memory, you can download RefRGim using default method:
+**Note:** we have pre-trained our model with all variants data in the 1000 Genomes project and generated 252 convolutional neural networks (CNNs) from 22 autosomes. Considering from the aspect of saving download time and computer memory, you can only choose one chr file in 1KGP_CNN_net to download. Or if you do not care about a little more downloading time and computer memory, you can download RefRGim using default method:
 ```
 ### Download
 git clone --recursive https://github.com/shishuo16/RefRGim.git
@@ -32,7 +32,7 @@ RefRGim takes compressed study vcf file ([VCFv4.2 format](https://samtools.githu
 ```
 ### Outputs 
 - test.out.SuperPopulation/chr*.vcf.gz
-    - study specified reference panels. Haplotypes whose population belongs to a same super population were merged into one vcf.  
+    - study specified reference panels. Haplotypes whose population belongs to a same super population were merged into one vcf file.  
 - test.out.populations
     - input individual classification result: individual name, haplotype group, and super haplotype group
 - test.out.population.probs
