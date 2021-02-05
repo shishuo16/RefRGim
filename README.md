@@ -8,6 +8,7 @@ Genotype imputation is a statistical method for estimating missing genotypes tha
 * [Tensorflow (1.9.0)](https://www.tensorflow.org/?hl=zh-cn)
 * [Numpy (1.18.5)](https://numpy.org/)
 * [the 1000 Genomes Project](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/)
+
 ### Install
 **Note:** we have pre-trained our model with all variants data in the 1000 Genomes project and generated 252 convolutional neural networks (CNNs) from 22 autosomes. In practice, You only need download CNNs from one chromosome. Considering from the aspect of saving download time and memory, you can only choose one chr file in 1KGP_CNN_net to download. Or if you do not care about a little more downloading time and computer memory, you can download RefRGim using default method:
 ```
