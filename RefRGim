@@ -1,0 +1,9 @@
+#!/bin/bash
+
+input_vcf=$1
+RefRGim_path=$2
+Raw_KGP_path=$3
+output_prefix=$4
+
+python3 ${RefRGim_path}/scripts/RefRGim_retrain.py ${input_vcf} ${output_prefix} ${RefRGim_path}
+sh ${RefRGim_path}/scripts/RefRGim_generate.ssrp.sh ${Raw_KGP_path} ${RefRGim_path} ${output_prefix}

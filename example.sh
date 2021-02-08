@@ -1,1 +1,1 @@
-python3 RefRGim.py example/test.vcf example/test.out ./
+./RefRGim example/test.vcf.gz ./ raw_1KGP example/test.out
