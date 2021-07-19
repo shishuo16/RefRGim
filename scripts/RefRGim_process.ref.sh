@@ -4,7 +4,7 @@ do
     while [ 1 ]; do
         num=`ps -ef|grep RefRGim_process.ref.pl|wc -l`
         if [ $num -lt 6 ]; then
-            perl ../scripts/RefRGim_process.ref.pl -f ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz -s integrated_call_samples_v3.20130502.ALL.panel -o $i &
+            perl ../scripts/RefRGim_process.ref.pl -f ALL.chr${i}.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz -s integrated_call_samples_v3.20130502.ALL.panel -o $i &
             break
         fi
         sleep 100s
