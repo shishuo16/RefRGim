@@ -34,7 +34,7 @@ RefRGim takes compressed study vcf file ([VCFv4.2 format](https://samtools.githu
 - test.out.SuperPopulation/chr*.vcf.gz
     - study specified reference panels. Haplotypes whose population belongs to a same super population were merged into one vcf file.  
 - test.out.populations
-    - input individual classification result: individual name, haplotype group, and super haplotype group
+    - study individual classification result: individual name, haplotype group, and super haplotype group
 - test.out.population.probs
     - probability matrix of input individuals and 26 haplotype group
 - test.out_net
