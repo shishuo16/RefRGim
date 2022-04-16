@@ -47,5 +47,5 @@ RefRGim takes compressed study vcf file ([VCFv4.2 format](https://samtools.githu
 ## Maintainers
 [@shishuo16](https://github.com/shishuo16)
 ## Citations
-To be continued ...
+Shuo Shi, Qiheng Qian, Shuhuan Yu, Qi Wang, Jinyue Wang, Jingyao Zeng, Zhenglin Du, Jingfa Xiao, RefRGim: an intelligent reference panel reconstruction method for genotype imputation with convolutional neural networks, Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab326, https://doi.org/10.1093/bib/bbab326
 
